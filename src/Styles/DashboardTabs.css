@@ -1,0 +1,22 @@
+.tab-list {
+    border-bottom: 1px solid #eaeaea;
+}
+
+.dashboard-tab {
+    padding: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+    width: fit-content;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.dashboard-tab:hover {
+    background-color: #d8b1e3;
+}
+
+.product-img {
+    border: none;
+}

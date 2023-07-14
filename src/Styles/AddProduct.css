@@ -1,0 +1,33 @@
+@media screen and (max-width: 500px) {
+    .add-product-container {
+        padding: 0;
+    }
+    .add-product-form {
+        width: 100%;
+    }
+}
+
+.add-product {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: min-content;
+}
+
+.add-product-input {
+    width: 250px;
+    border-bottom: solid 1px #eaeaea;
+    padding-bottom: 2%;
+}
+
+.add-product-button {
+    border-radius: 50px;
+    padding-top: 2% !important;
+    padding-bottom: 2% !important;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.add-product-button:hover {
+    filter: brightness(85%);
+}

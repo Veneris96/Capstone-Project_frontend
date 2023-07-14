@@ -1,0 +1,32 @@
+@media screen and (max-width: 850px) {
+    #top-bar {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+#top-bar {
+    border-radius: 50px;
+}
+
+.search-bar-text {
+    height: 27.99px;
+}
+
+.reset-field-cross {
+    position: static;
+    bottom: 10.35rem;
+    left: 61.5rem;
+} 
+
+.reset-field-cross:hover {
+    cursor:  pointer;
+}
+
+.form-buttons-filter button {
+    margin-top: 13%;
+    height: min-content;
+    padding: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}

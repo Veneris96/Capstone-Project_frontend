@@ -1,0 +1,47 @@
+@media screen and (min-width: 900px) {
+    #carousel {
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #carousel {
+        width: 70%;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    #carousel {
+        width: 95%;
+    }
+}
+
+.carousel {
+    border-radius: 15px;
+    width: 80vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.carousel-buttons {
+    padding-top: 1%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.inner-carousel {
+    white-space: nowrap;
+    transition: transform 0.4s;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.indicator-symbol {
+    color: black;
+}
+
+.indicator-symbol-active {
+    color: #a8c3e4;
+}

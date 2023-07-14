@@ -1,0 +1,28 @@
+.product-container {
+    align-self: center;
+    border-top: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+    margin-top: 1%;
+}
+
+#edit-product-container {
+    z-index: 1000;
+}
+
+.delete-edit-container button {
+    border: 1px solid #eaeaea;
+    border-radius: 50px;
+    padding: 2%;
+    padding-top: 3%;
+    padding-bottom: 2.5%;
+    width: fit-content;
+}
+
+.delete-edit-container button:hover {
+    transition: 0.3s;
+}
+
+.product-page-cart {
+    background-color: #bfdbfe;
+    border-radius: 50px;
+}

@@ -1,0 +1,39 @@
+
+form {
+    font-size: 14pt;
+}
+
+.signup-form input {
+    width: 200px;
+    border: 0;
+    border-bottom: 1px solid #eaeaea;
+    border-radius: 0;
+}
+
+.signup-form input:invalid ~ .error-message {
+    display: block;
+}
+
+.province-select {
+    font-size: 13pt;
+    width: 200px;
+    border-bottom: 1px solid #eaeaea;
+    padding: 2px;
+}
+
+.form-buttons button {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 50px;
+    margin-top: 5%;
+}
+
+.error-message {
+    font-size: 10pt;
+    color: red;
+    display: none;
+} 
+
+

@@ -1,0 +1,34 @@
+.single-card-container {
+    width: 35vh;
+}
+
+.card {
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+    height: 650px;
+    z-index: 5;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 30px rgb(196, 196, 196);
+    transform: scale(100.5%);
+    transition: 0.15s;
+}
+
+.product-image {
+    height: 320px;
+    border-radius: 5px;
+}
+
+.add-to-cart {
+    background-color: #bfdbfe;
+    border-radius: 50px;
+    padding: 3%;
+    padding-left: 4%;
+    padding-right: 4%;
+   
+}
+
+.add-to-cart:hover {
+    background-color: #9ec7fa;
+}

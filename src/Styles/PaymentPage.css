@@ -1,0 +1,21 @@
+.checkout-container {
+    height: fit-content;
+    min-height: 50vh;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.shipping-cost {
+    border-bottom: 1px solid #eaeaea;
+}
+
+.total-container button {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 5px;
+    padding-right: 8px;
+    border-radius: 50px;
+}
+
+.total-container button:hover {
+    filter: brightness(115%);
+}
